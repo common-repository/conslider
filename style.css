@@ -1,0 +1,17 @@
+* {margin:0; padding:0}
+#conslider-wrapper {width:578px; margin:auto}
+
+#conslider {float:left; position:relative; overflow:auto; width:522px; height:292px; }
+#conslider ul {position:absolute; list-style:none; top:0; left:0}
+#conslider li {float:left; width:522px; height:310px;}
+
+.intro ul, .intro ul li { margin: 0px !important; list-style:none; }
+.auxiliar { float:right; width: 535px; height:400px;}
+#conslider-navigation { float:right;margin-top:-7px;}
+.conslider-pagination .thumb { width: 100px; height: 65px;} 
+
+.conslider-pagination {float:left; list-style:none; height:25px; }
+.conslider-pagination li {float:left; cursor:pointer; background:#666; border:1px solid #999; text-align:center; color:#222}
+.conslider-pagination li:hover {background:#777; border:1px solid #bbb; color:#000}
+conslider-pagination li.current {border:1px solid #ccc; background:#888}
+
